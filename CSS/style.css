@@ -13,6 +13,10 @@ body {
     background-color: var(--azulescuro);
 }
 
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
 .navbar {
     background-color: var(--laranja);
     border-radius: 15px;
