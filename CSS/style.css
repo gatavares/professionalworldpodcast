@@ -1,0 +1,369 @@
+:root {
+    --azulescuro: #282C34;
+    --azulshadow: #3b4963;
+    --laranja: #F6925B;
+    --branco: white;
+    --amarelo: #ffc107;
+    --verde: #22d861;
+    --vermelho: #ff0101;
+    --preto: rgb(0, 0, 0);
+}
+
+body {
+    background-color: var(--azulescuro);
+}
+
+.navbar {
+    background-color: var(--laranja);
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 0px 0px 10px 3px #3b4963;
+}
+
+.navbar-nav li {
+    margin-right: 15px;
+}
+
+.navbar b:hover {
+    text-decoration: underline var(--branco) 2px;
+}
+
+.dropdown ul {
+    background-color: var(--laranja);
+    border-radius: 10px ;
+}
+
+.dropdown-menu #erclogo {
+    margin-left: 10px;
+}
+
+.dropdown-item.active,.dropdown-item:active{
+    color: var(--branco);
+    text-decoration: none;
+    background-color: var(--preto);
+}
+
+.carousel {
+    display: block;
+}
+
+.carousel img {
+    margin: auto;
+}
+
+@media only screen and (max-width: 576px){
+    .carousel-item img{
+        width: 70%;
+        height: 70%;
+    }
+}
+
+@media only screen and (max-width: 3000px){
+    .carousel-item img{
+        width: 70%;
+        height: 70%;
+    }
+}
+
+.Infodata .a{
+    font-family: "Montserrat",sans-serif;
+    color: var(--branco);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.Infodata .Datavar p{
+    color: var(--laranja);
+    text-align: center;
+    margin-top: -20px;
+    font-size: 25px;
+}
+
+.Infodata .b{
+    font-family: "Montserrat",sans-serif;
+    color: var(--branco);
+    text-align: center;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+.Infodata .b1{
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    color: var(--laranja);
+    text-align: center;
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.Redes p {
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    color: var(--laranja);
+    text-decoration: underline var(--branco) 2px;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 25px;
+}
+
+.Redes {
+    text-align: center;
+}
+
+.btn-youtube{
+    min-width: 300px;
+    border: 2px solid var(--laranja);
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    fill: var(--branco);
+    color: var(--branco);
+    background-color: transparent;
+    border-radius: 10px ;
+    padding: 10px 100px;
+    transition: transform .2s;
+    margin-bottom: 5px;
+}
+
+.btn-youtube:hover{
+    min-width: 400px;
+    border: 2px solid var(--branco);
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    fill: var(--branco);
+    color: var(--branco);
+    background-color: var(--vermelho);
+    border-radius: 10px ;
+    padding: 12px 80px;
+    transition: transform .2s;
+    margin-bottom: 5px;
+}
+
+.btn-spotify{
+    min-width: 300px;
+    border: 2px solid var(--laranja);
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    fill: #fff;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 10px ;
+    padding: 10px 100px;
+    transition: transform .2s;
+    margin-bottom: 5px;
+}
+
+
+.btn-spotify:hover{
+    min-width: 400px;
+    border: 2px solid var(--preto);
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    fill: #fff;
+    color: #fff;
+    background-color: var(--verde);
+    border-radius: 10px ;
+    padding: 12px 80px;
+    transition: transform .2s;
+    margin-bottom: 5px;
+}
+
+.btn-insta{
+    min-width: 200px;
+    border: 2px solid var(--laranja);
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    fill: #fff;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 10px ;
+    padding: 10px 100px;
+    transition: transform .2s;
+    margin-bottom: 5px;
+}
+
+.btn-insta:hover{
+    min-width: 400px;
+    border: 2px solid var(--preto);
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    fill: #fff;
+    color: #fff;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    border-radius: 10px ;
+    padding: 12px 80px;
+    transition: transform .2s;
+    margin-bottom: 5px;
+}
+
+footer {
+    font-family: "Montserrat",sans-serif;
+    margin-top: 30px;
+    font-size: 17px;
+    box-shadow: 0px 0px 10px 3px #3b4963;
+    background-color: var(--laranja);
+    border-radius: 15px;
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: bolder;
+}
+
+#logofoot{
+    margin-left: 20px;
+}
+
+form {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+    color: var(--branco);
+}
+
+#mensagem {
+    margin-top: 25px;
+}
+
+#textboxes {
+    color: black;
+    font-size: 15px;
+}
+
+.cursos {
+    margin-top: 25px;
+}
+
+.sexo {
+    margin-top: 25px;
+}
+
+.form-check-input:checked {
+    background-color: var(--laranja);
+    border-color: var(--laranja);
+}
+
+.form-check-input:focus {
+    outline:0;
+    box-shadow:0 0 0 .25rem #fdb48cb4;
+    border-color: var(--branco);
+}
+
+.form-check-input:active{
+    filter:brightness(90%);
+}
+
+.submit {
+    margin-right: 15px;
+}
+
+.btn-primary {
+    color:#fff;background-color:#fca779;border-color:var(--branco)
+}
+.btn-primary:hover {
+    color:#fff;background-color:var(--laranja);border-color:var(--branco)
+}
+.btn-check:focus+.btn-primary,.btn-primary:focus{
+    color:#fff;background-color:var(--laranja);border-color:var(--branco);box-shadow:0 0 0 .25rem #fdb48cb4
+}
+.btn-check:active+.btn-primary,.btn-check:checked+.btn-primary,.btn-primary.active,.btn-primary:active,.show>.btn-primary.dropdown-toggle{
+    color:#fff;background-color:var(--laranja);border-color:var(--branco)
+}
+.btn-check:active+.btn-primary:focus,.btn-check:checked+.btn-primary:focus,.btn-primary.active:focus,.btn-primary:active:focus,.show>.btn-primary.dropdown-toggle:focus{
+    box-shadow:0 0 0 .25rem #fdb48cb4
+}
+.btn-primary.disabled,.btn-primary:disabled{
+    color:#fff;background-color: var(--laranja);border-color: var(--branco)
+}
+
+.card {
+    font-family: "Montserrat",sans-serif;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.card img{
+    padding: 5px 7px 0px 7px;
+}
+
+.card-footer {
+    margin-top: -20px;
+}
+
+.Equipa .a{
+    font-family: "Montserrat",sans-serif;
+    color: var(--branco);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.Equipa .eqp p{
+    color: var(--laranja);
+    text-align: center;
+    margin-top: -20px;
+    font-size: 25px;
+}
+
+p i{
+    text-decoration: underline 2px var(--branco);
+    color: var(--laranja);
+}
+
+.card-title{
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+}
+
+.fundo img{
+    position: relative;
+    margin-top: 25px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.fundo #texto{
+    font-family: "Montserrat",sans-serif;
+    padding: 35px 35px;
+    font-size: 20px;
+    margin-top: -1180px;
+    height: 100%;
+    width: 100%;
+    margin-bottom:250px;
+    background-color: #ffa473b4;
+    margin-left: 30px;
+    border-radius: 20px;
+    width: 97%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1602px) {
+    .fundo #texto{
+        font-family: "Montserrat",sans-serif;
+        padding: 35px 35px;
+        font-size: 15px;
+        margin-top: 50px;
+        height: 100%;
+        width: 100%;
+        margin-bottom:50px;
+        background-color: #ffa473b4;
+        margin-left: 18px;
+        border-radius: 20px;
+        width: 97%;
+        height: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
